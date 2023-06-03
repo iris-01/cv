@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms in html</title>
+  </head>
+  <body>
+    <fieldset>
+      <form action="snishika852@gmail.com">
+        <h1>Welcome User...!! Please Fill the Given Form</h1>
+        <label>First Name : </label>
+        <input type="text" title ="Invalid Name..." required placeholder="Enter Your Given Name" pattern="[a-zA-Z]{2,15}">
+        <br><br>
+        <label>Middle Name : </label>
+        <input type="text" placeholder="Enter Your Middle Name" pattern="[a-zA-Z]{2,15}">
+        <br><br>
+        <label>Last Name : </label>
+        <input type="text" placeholder="Enter Your Last Name" pattern="[A-Za-z]{2,15}">
+        <br><br>
+        <label>KODNEST ID : </label>
+        <input type="text" title="Invalid ID" placeholder="Enter your KODNEST ID" pattern="^[KOD]{3}[A-Z0-9]{6}$" required>
+        <br><br>
+        <label>Age : </label>
+        <input type="number" min="18" max="35" placeholder="Enter your AGE">
+        <br><br>
+        <label>Phone Number : </label>
+        <input type="text" pattern="^[6-9]{1}[0-9]{9}$">
+        <br><br>
+        <label>Email : </label>
+        <input type="email" pattern = "[a-z0-9]+@[a-z]+.[a-z]{2,3}" required placeholder="Enter Email"
+        <br><br><br>
+        <label>Technical Skills : </label>
+        <input type="checkbox">JAVA
+        <input type="checkbox">PYTHON
+        <input type="checkbox">SQL
+        <input type="checkbox">HTML
+        <br><br>
+        <label>Select State : </label>
+        <select>
+          <option>Select</option>
+          <option>Madhya Pradesh</option>
+          <option>Karnataka</option>
+          <option>Andhra Pradesh</option>
+          <option>Tamil Nadu</option>
+        </select>
+        <br><br>
+        <label>Gender : </label>
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+        <br><br>
+        <label>Upload your file here : </label>
+        <input type="file">
+        <br><br>
+        <label>Date of birth : </label>
+        <input type="date" min="1995-01-23" max="2020-01-15">
+        <br><br>
+        <label>Range Button : </label>
+        <input type="range">
+        <br><br>
+        <label>Color pallet : </label>
+        <input type="color">
+        <br><br>
+        <label>Search Button : </label>
+        <input type="search">
+        <br><br>
+        <textarea>Write Your Suggestion here :</textarea>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+     </form>
+    </fieldset>
+  </body>
+</html>
